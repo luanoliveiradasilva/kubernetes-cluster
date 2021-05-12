@@ -34,8 +34,8 @@ resource "azurerm_kubernetes_cluster" "example" {
   }
 
  service_principal {
-    client_id     = ""
-    client_secret = ""
+    client_id     = "1711c619-dc4c-4264-a01d-2aad93762d91"
+    client_secret = "WFnqGCY_bHcYLxHliH3~TQVuSR21HH4x~q"
   }
 
   role_based_access_control {
